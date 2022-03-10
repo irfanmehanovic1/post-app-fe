@@ -108,7 +108,7 @@ const PostsPage = () => {
           {posts && posts.map(post => {
               return <Grid item xs={12} md={6} key={post._id}>
               <CardContent>
-                  <Card sx={{ display: 'flex' }}>
+                  <Card sx={{ display: 'flex', minWidth: '600px', minHeight: '400px' }}>
                   <CardContent sx={{ flex: 1 }}>
                       <Typography component="h2" variant="h5">
                       Title: {post.title}
