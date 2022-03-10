@@ -52,6 +52,7 @@ const LoginPage = () => {
     if(localStorage.getItem('POST-APP-FE-TOKEN')){
       getMe();
     }
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 
   return (
